@@ -1,0 +1,37 @@
+body{
+	background-color: ;
+}
+
+.header{
+	background-color: #dfd9c3;
+
+	width: 784px;
+	height: 200px;
+}
+
+.kotak{
+	height: auto;
+	width: 784px;
+	display: flex;
+}
+
+.kotak1{
+	background-color: #ffff01;
+	float: left;
+	height: auto;
+	width:200px;
+}
+
+.kotak2{
+	background-color: #d99896;
+	float: left;
+	height: auto;
+	width: 584px;
+}
+
+.footer{
+	background-color: #9370DB;
+	width: 784px;
+	height: 100px;
+	text-align : center ;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Form HTML</h1>
+<form action="/action_page.php">
+      <label for="fname">
+    Name:
+      </label>
+    <input type="text" id="fname" name="fname"><br><br>
+            Gender:
+    <input type="radio" id="male" name="gender" value="male">
+      <label for="male">
+    Male
+      </label>
+    <input type="radio" id="female" name="gender" value="female" checked="checked">
+      <label for="female">
+    Female
+      </label><br><br>
+      <label for="address">Address:</label>
+    <input type="text" id="address" name="address"><br><br>
+      <label for="country">
+    Country:  
+      </label>     
+            <select id="country" name="country" class="form-control">
+                <option value="Indonesia">Indonesia</option>
+                <option value="Korea Selatan">Korea Selatan</option>
+                <option value="Amerika">Amerika</option>
+                <option value="New York">New work</option>
+                <option value="Tiongkok">Tiongkok</option>
+                <option value="Afganistan">Afganistan</option>
+                <option value="Jepang">Jepang</option></select><br><br>
+    <label for="email">
+    Email:
+    </label>
+      <input type="text" id="email" name="email"><br><br>
+  
+    <label for="img">
+    Photo:
+    </label>
+      <input type="file" id="img" name="img" accept="image/*"><br><br>
+ 
+  Comment <textarea rows="4" cols="50" name="comment" form="usrform"></textarea> <input type="submit" value="Submit"><br><br>
+  </form>
+</body>
+</html>
